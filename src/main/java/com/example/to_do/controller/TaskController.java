@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/tasks")
 public class TaskController {
 
-    @GetMapping()
+    @GetMapping("/task")
     public ResponseEntity<String> home() {
         return ResponseEntity.ok("Bienvenido a la API de gestión de tareas");
     }
